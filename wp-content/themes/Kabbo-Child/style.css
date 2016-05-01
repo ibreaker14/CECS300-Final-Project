@@ -1,0 +1,240 @@
+/* 
+ Theme Name:   Kabbo Child
+ Theme URI:    
+ Description:  
+ Author:       ibreaker
+ Author URI:   
+ Template:     kabbo
+ Version:      1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+
+ /* == Add your own styles below this line ==
+--------------------------------------------*/
+
+#right-sidebar .widget{
+background: #333;
+}
+
+#right-sidebar .widget ul li{
+border: none;
+}
+
+#featured-boxs img.fimage:hover {
+	border: none;
+}
+
+#content{
+	border: none;
+	padding:0;
+	width:100%;
+}
+#content p{
+	margin-top: 1em;
+	clear: both;
+}
+
+#right-sidebar{
+	display: none;
+}
+
+.content-ver-sep .entrytext{
+	background: red;
+}
+
+ul, li, a, div, input, button, img.fimage {
+	transition:all .25s;
+	-moz-transition:all .25s;
+	-o-transition:all .25s;
+	-webkit-transition:all .25s;
+}
+
+#featured-boxs img.fimage:hover {
+	border: 3px solid #0093C9;
+	-webkit-transform:scale(1.05);
+	-moz-transform:scale(1.05);
+	-o-transform:scale(1.05);
+	-ms-transform:scale(1.05);
+	transform:scale(1.05);
+}
+
+.resort-image img{
+	margin:0;
+	padding:0 2em 1em 0;
+	float: left;
+}
+
+#resort-url{
+
+}
+
+
+#resort-description-header h2{
+	padding: 2em 0 0 0;
+	margin:0 0 0 0;
+}
+
+#resort-description-header{
+	margin:0;
+	padding:0;
+}
+
+#resort-description{
+	float: right;
+	clear: none;
+	word-wrap: break-word;
+	width: 265px;
+	padding:0;
+	margin: -2em 0 0 0;
+}
+
+.resort-image-smaller{
+	width: 25%;
+	float: left;
+	padding: 1em 0;	
+}
+
+.resort-description-smaller{
+	float: left;
+	padding:0 0 0 1em;
+	padding-top: 0.5em;
+}
+
+.ibreaker_extra_menu_class{
+	text-align: center;
+	border-bottom: 1px solid #CCC;
+}
+
+.ibreaker_extra_menu_class a{
+	text-decoration: none;
+	border-right: 1px solid #C2C2C2;
+	padding: 0 1em;
+}
+
+.ibreaker_extra_menu_class ul li:last-child a{
+	border: none;
+}
+
+.ibreaker_extra_menu_class ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.deal-image img{
+	width: 60%;
+}
+
+.deal-image-thumb{
+ 	position: relative;
+ 	float: none;
+}
+
+.deal-image-thumb img{
+	/*width: 40%;*/
+	width: 45%;
+	padding-top: 0.2em;
+	padding-right: 3em;
+	float: left;
+	clear: none;
+	padding-bottom: 0.5em;
+
+}
+
+/*.deal-image-thumb img:hover{
+	width: 45%;
+}*/
+
+#content .deal-content p{
+	clear: none;
+	width: 50%;
+	float: right;
+}
+
+#content .deal-title a{
+	font-weight: bolder;
+}
+
+.deal-label h2{
+	display: inline-block;
+	position: absolute;
+	color: #1d1d1d;
+	float: right;
+	font-weight: bolder;
+}
+
+.deal-before h3{
+	text-decoration: line-through;
+	color: red;
+	float: right;
+	padding-right: 2em;
+}
+
+.deal-after h3{
+	color: green;
+	float: right;
+	padding-right: 2em;
+}
+
+img.overlayed{
+	position: absolute;
+	left:0;
+	top:-5px;
+	z-index: 2;
+	width: 100px;
+	padding-left: 23.2em;
+	margin-top: -2px;
+}
+
+.deal-expire-wrapper{
+	clear: both;
+	float: right;
+	margin-top: -2em;
+}
+
+.deal-expire{
+	color: #545454;
+	float: right;
+}
+
+section h2{
+	font-weight: bolder;
+}
+
+section h2.custom-deal-title{
+	color: #000;
+	font-size: 2.5em;
+}
+
+.m-menu a{
+	padding: 1em 2em;
+}
+
+.test{
+	clear: both;
+}
+
+.single-deal-before{
+	float: right;
+	font-size: 2em;
+	margin-top: 2em;
+	margin-right: 3em;
+}
+
+.single-deal-after{
+	float: right;
+	font-size: 2em;
+	margin-top: 2em;
+	clear: right;
+	margin-right: 3em;
+}
+
+#content-wrapper{
+	margin-top: 2em;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	padding: 0 6em 0 6em;
+}
+
+#content-wrapper h2{
+	text-decoration: underline;
+}

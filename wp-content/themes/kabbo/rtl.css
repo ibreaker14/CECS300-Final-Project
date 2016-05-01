@@ -1,0 +1,359 @@
+/*
+Theme Name: KABBO
+Theme URI: http://d5creation.com/theme/kabbo/
+
+Author: D5 Creation
+Author URI: http://d5creation.com/
+
+Description: What is your Purpose? Business? Personal Blog? Portfolio Site? Image Gallery? Family Site? HTML 5 and CSS3 powered KABBO Theme is the right choice for you. Customizable Background and other options will give the WordPress Driven Site an attractive look.  KABBO is super elegant and Professional Theme which will expand you widely. The Slider will show the featured images and contents of posts automatically.  Front Page, Right and Footer Sidebar will be usable for showing the Widgets and Plugins items. Full Wide page can be used for showing showcase or other pages. KABBO Extend has come with exciting Post Options, Theme Options and Extra Functionalities with more than 100 Theme Options. D5 Creation's Support will be with you, Always! 
+
+Version: 1.4
+
+Tags: gray, light, black, blue, white, two-columns, right-sidebar, fixed-layout, custom-header, custom-background, custom-menu, threaded-comments, sticky-post, rtl-language-support, front-page-post-form, full-width-template, theme-options  
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+KABBO WordPress Theme, Copyright 2013: D5 Creation (www.d5creation.com)
+KABBO is distributed under the terms of the GNU GPL
+
+
+Text Domain: kabbo
+
+*/
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+caption, th, td {
+	text-align: right;
+}
+
+/* =WordPress Core and Addition
+-------------------------------------------------------------- */
+.alignnone,
+#content .alignnone,
+#content-full .alignnone,
+div .alignnone {
+	margin: 5px 0 20px 20px;
+}
+
+.alignleft,
+#content .alignleft,
+#content-full .alignleft,
+div .alignleft {
+	float:left;
+	margin: 5px 20px 20px 0;
+}
+
+.alignright,
+#content .alignright,
+#content-full .alignright,
+div .alignright {
+	float:right;
+	margin: 5px 0 20px 20px;
+}
+
+a img.alignleft {
+	float:left;
+	margin: 5px 20px 20px 0;
+}
+
+a img.alignnone {
+	margin: 5px 0 20px 20px;
+}
+
+a img.alignright {
+	float:right;
+	margin: 5px 0 20px 20px;
+}
+
+a img.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.wp-caption.alignnone {
+	margin: 5px 0 20px 20px;
+}
+
+.wp-caption.alignright {
+	margin: 5px 0 20px 20px;
+}
+
+.wp-caption.alignleft {
+	margin: 5px 20px 20px 0;
+}
+
+/* =Structure
+----------------------------------------------- */
+
+body {
+	background: url("images/back.jpg") repeat fixed right top / 100% auto #1c9afe;
+}
+
+#top-menu-container input#s {
+	background: url("images/search.png") no-repeat scroll left 50% #777777;
+	left: 30px;
+	right: auto;
+}
+
+#top-menu-container input#s:hover {
+	padding: 5px 10px 5px 25px;
+}
+
+img.site-logo, h1.site-title {
+	float: right;
+}
+
+.site-des {
+	margin: 20px 330px 0 0;
+}
+
+#content {
+	border-left: 260px solid #0093C9;
+	float: right;
+	margin: 0 0 0 -300px;
+	padding: 0 0 0 50px;
+	border-right: none;
+}
+
+#left-sidebar {
+	float: left;
+	margin: -30px 0 0 -30px;
+}
+
+#social {
+	float: left;
+}
+
+.gplus-link, 
+.li-link, 
+.feed-link {
+	float: right;
+}
+
+/* Common Elements 
+------------------------------------------------------------- */
+ol, 
+ul {
+	padding: 0 20px 10px 0;
+}
+
+address {
+	text-align: left;
+}
+
+/* Menu Elements 
+------------------------------------------------------------- */
+
+.m-menu {
+	float: right;
+}
+
+.m-menu li {
+	float: right;
+}
+
+.m-menu a {
+	padding: 20px 0 55px 25px;
+}
+
+/* IE6 */
+
+.m-menu ul li:hover > ul {
+	right: 189px;
+	left: auto;
+}
+
+/* Sub-menu */
+
+.m-menu ul {
+	right: -20px;
+	background: -webkit-gradient(linear,right bottom,right top,color-stop(0, #111),color-stop(1, #444));
+	left: auto;
+}
+
+.m-menu ul ul {
+	right: 250px;
+	left: auto;
+}
+
+.m-menu ul a {
+	text-align:right;
+}
+
+/* IE6 */
+
+/* IE7 */
+
+.m-menu ul a:hover {
+	background: -webkit-gradient(linear, right top, right bottom, from(#04acec), to(#0186ba));
+}
+
+.m-menu ul li:first-child > a:after {
+	right: 30px;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	left: auto;
+}
+
+.m-menu ul ul li:first-child a:after {
+	right: -8px;
+	border-right: 0;
+	border-left: 8px solid #444;
+	left: auto;
+}
+
+.m-menu ul ul li:first-child a:hover:after {
+	border-left-color: #04acec;
+}
+
+/* Clear floated elements */
+
+/* IE6 */
+
+/* IE7 */
+/* Wedget Elements 
+------------------------------------------------------------- */
+
+#left-sidebar .widget {
+	float: left;
+}
+
+#left-sidebar .widget li {
+	padding: 5px 17px 5px 0;
+}
+
+.footer-widget1, .footer-widget2, .footer-widget3, .footer-widget4 {
+	float:right;
+	background: url("images/wline.png") no-repeat scroll right top transparent;
+}
+
+.footer-widget1 {
+	padding: 0px 0 0 20px;
+}
+
+.footer-widget4 {
+	padding: 0px 20px 0 0px;
+}
+
+#footer-sidebar .widget li {
+	padding: 3px 17px 3px 0;
+}
+
+/* Design Elements 
+------------------------------------------------------------- */
+
+button,
+input[type="reset"],
+input[type="button"],
+input[type="submit"] {
+	background: url("images/btn.png") repeat-x scroll left top #28b7eb;
+}
+
+input[type="text"], 
+textarea, input#s, 
+input[type="password"] {
+	border-right:1px solid #999999;
+	border-left:1px solid #FFFFFF;
+}
+
+.post.sticky, 
+.sticky {
+	background: url("images/sticky.png") no-repeat scroll left top #F2F2F2;
+}
+
+.page-link {
+	float: left;
+	text-align: left;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------------------------ */
+
+.featured-box-first {
+	float:right;
+}
+
+.featured-box {
+	margin-right: 49.5px;
+	float:right;
+	margin-left: auto;
+}
+
+blockquote:before,
+q:before {
+	margin-left:.20em;
+	margin-right: auto;
+}
+
+blockquote:after,
+q:after {
+	margin-right:.20em;
+	margin-left: auto;
+}
+
+#customers-comment blockquote {
+	border-right:10px solid #3ab6ea;
+	border-left:10px solid #3ab6ea;
+}
+
+#container .attachment-thumbnail,
+#container .attachment-category-thumb {
+	float: right;
+	margin: 5px 0 10px 15px;
+}
+
+h1.page-title, 
+h1.arc-post-title {
+	text-align: right;
+}
+
+h2.post-title, 
+h2.comments, 
+h3#reply-title, 
+h2.post-title-color {
+	text-align: right;
+}
+
+.read-more {
+	background: url("images/go.png") no-repeat scroll left center transparent;
+	padding: 5px 0 5px 30px;
+}
+
+.floatright {
+	float: right;
+	text-align:right;
+}
+
+.floatleft {
+	float: left;
+	text-align:left;
+}
+
+#page-nav .alignleft {
+	text-align:left;
+	background: url("images/go.png") no-repeat scroll left center transparent;
+	padding: 0 0 0 30px;
+}
+
+#page-nav .alignright {
+	text-align:right;
+	background: url("images/back.png") no-repeat scroll right center transparent;
+	padding: 0 30px 0 0;
+}
+
+#commentsbox .commentlist {
+	margin: 0 -25px 0 0;
+}
+
+#commentsbox img.avatar {
+	left: -5px;
+	right: auto;
+}
+
+#commentsbox ul.children {
+	padding: 5px 20px 0 0;
+}
+
