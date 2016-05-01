@@ -238,3 +238,8 @@ section h2.custom-deal-title{
 #content-wrapper h2{
 	text-decoration: underline;
 }
+
+#creditline{
+	padding-top:3em;
+	padding-bottom:3em;
+}

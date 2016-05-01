@@ -136,7 +136,8 @@ function kabbo_page_menu() {
 	
 	// Content Type Showing
 	function kabbo_content() { the_content('<span class="read-more">Read More</span>'); }
-	function kabbo_credit() { echo '<div id="creditline">&copy; ' . date("Y"). ': ' . get_bloginfo( 'name' ) . '<span class="credit">  | KABBO Theme by: <a 	   href="http://d5creation.com" target="_blank"><img  src="' . get_template_directory_uri() . '/images/d5logofooter.png" /> D5 Creation</a> | Powered by: <a href="http://wordpress.org" target="_blank">WordPress</a></span></div>'; }
+	/*function kabbo_credit() { echo '<div id="creditline">&copy; ' . date("Y"). ': ' . get_bloginfo( 'name' ) . '<span class="credit">  | KABBO Theme by: <a 	   href="http://d5creation.com" target="_blank"><img  src="' . get_template_directory_uri() . '/images/d5logofooter.png" /> D5 Creation</a> | Powered by: <a href="http://wordpress.org" target="_blank">WordPress</a></span></div>'; }*/
+	function kabbo_credit() { echo '<div id="creditline">&copy; ' . date("M Y"). ': ' . get_bloginfo( 'name' ) . '<span class="credit">  | KABBO Child Theme by: Mingtau Li | Powered by: <a href="http://wordpress.org" target="_blank">WordPress</a></span></div>'; }
 	
 	
 //	Registers the Widgets and Sidebars for the site
