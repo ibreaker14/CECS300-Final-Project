@@ -17,7 +17,7 @@
 			<div class="content-ver-sep"> </div>
             <div class="entrytext">
  <?php the_post_thumbnail('category-thumb'); ?>
- <div id="content-wrapper">
+ <div id="content-wrapper"> 
  <?php kabbo_content(); ?>
  </div><!-- end content wrapper -->
  				

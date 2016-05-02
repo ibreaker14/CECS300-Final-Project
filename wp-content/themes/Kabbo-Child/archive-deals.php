@@ -4,7 +4,7 @@
 	Based on the Simplest D5 Framework for WordPress
 	Since KABBO 1.0
 */
-
+ 
 get_header(); ?><div id="container">  
 
 <div id="content">

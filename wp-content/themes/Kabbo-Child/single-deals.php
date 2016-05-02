@@ -6,7 +6,7 @@
 	Since KABBO 1.0
 */
 
-
+ 
 get_header(); ?><div id="container">  
 
 <div id="content">

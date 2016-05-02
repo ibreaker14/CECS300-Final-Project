@@ -9,7 +9,7 @@
 		return;
 	}
 ?>
-
+ 
 <div id="commentsbox">
 <?php if ( have_comments() ) : ?>
 	<h2 class="comments"><?php comments_number('No Comments', 'One Comment', '% Comments' );?> to  <a href="<?php the_permalink(); ?>"><?php the_title();?></a></h2>
