@@ -130,7 +130,6 @@ ul, li, a, div, input, button, img.fimage {
 }
 
 .deal-image-thumb img{
-	/*width: 40%;*/
 	width: 45%;
 	padding-top: 0.2em;
 	padding-right: 3em;
@@ -139,10 +138,6 @@ ul, li, a, div, input, button, img.fimage {
 	padding-bottom: 0.5em;
 
 }
-
-/*.deal-image-thumb img:hover{
-	width: 45%;
-}*/
 
 #content .deal-content p{
 	clear: none;
