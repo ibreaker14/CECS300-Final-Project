@@ -5,7 +5,7 @@
 	Since KABBO 1.0
 */
 ?>
-
+ 
 <?php echo '<div id="footer"><div id="footer-content">'; get_sidebar( 'footer' ); echo '</div></div></div>'; kabbo_credit(); 
 
 wp_footer(); ?>
