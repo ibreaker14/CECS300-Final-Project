@@ -51,7 +51,7 @@ get_header(); ?><div id="container">
 <?php $banner =  types_render_field("deal-banner", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2")); 
 if($banner=="Banner"){
 ?>
- 		<img src="http://finalproject.dev/wp-content/uploads/2016/05/deal-banner.png" alt="" class="overlayed"/> 
+ 		<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/deal-banner.png" alt="" class="overlayed"/>
  <?php }
  		the_post_thumbnail('thumbnail');  
  		echo types_render_field("deal-image", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"))."</a></div>"; 
